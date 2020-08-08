@@ -4,9 +4,8 @@
 2: Add the following rules in the /opt/bitnami/apps/wordpress/config/httpd-app-config
 
 RewriteEngine On
-RewriteBase /
 
-# Redirect non-www to www
+RewriteBase /
 
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 
