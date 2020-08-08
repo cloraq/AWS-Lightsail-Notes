@@ -1,6 +1,7 @@
 ## Steps to redirect to a non www
 
 1: Add a new record inside the Lightsail DNS Zone. type A, value =  WWW, Static IP (actual site)
+
 2: Add the following rules in the /opt/bitnami/apps/wordpress/config/httpd-app-config
 
 RewriteEngine On
